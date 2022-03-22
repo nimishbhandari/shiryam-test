@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+const App = () => {
+  // useEffect(async () => {
+  //   const res = await fetch("https://reqres.in/api/users?page=2");
+
+  //   const { data } = await res.json();
+
+  //   console.log(data);
+  // }, []);
+
+  // const [num, setNum] = useState(0);
+
+  // const add = () => {
+  //   setNum(num + 1);
+  // };
+
+  // const decrease = () => {
+  //   setNum(num - 1);
+  // };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div>
+    //   {num}
+    //   <div>
+    //     <button onClick={() => add()}>Add</button>
+    //     <button onClick={() => decrease()}>Subtract</button>
+    //   </div>
+    // </div>
+    <div>test</div>
   );
-}
+};
 
 export default App;
